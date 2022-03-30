@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .menu-item{
+        @apply 
+        mr-6 
+        ml-6 
+        tracking-wider 
+        flex-auto 
+        ;
+    }
+
+    .menu-item-a {
+        @apply block transition duration-200
+    }
+    .font-menu {
+        @apply font-sans
+    }
+
+    .secondMenu {
+        @apply
+        grid
+        grid-cols-2
+        gap-4
+        justify-start
+        lg:flex
+        text-gray
+        ;
+    }
+}
