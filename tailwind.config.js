@@ -33,6 +33,10 @@ module.exports = {
       'gray': '#616365',
       'ligthBeige': '#FCFBF7',
       'grayText': '#3A3A3A',
+      'black': '#000000',
+      'backFooter': '#F4F4F4',
+      'white': '#FFFFFF',
+      'grayFoot': '#808080'
     },
   },
   plugins: [],

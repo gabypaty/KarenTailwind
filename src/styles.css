@@ -27,6 +27,49 @@
         justify-start
         lg:flex
         text-gray
+        mt-5
         ;
+    }
+
+    .footerText {
+        @apply
+        text-gray
+        text-base
+        ;
+    }
+
+    .footer {
+        @apply
+        text-grayFoot
+        text-xs
+        mb-6
+        ;
+    }
+
+    .subFooter {
+        @apply
+        text-grayText
+        text-sm
+        mb-2
+        ;
+    }
+
+    @font-face{
+        font-family: "AmericaRe";
+        src: url('css/fonts/GTAmericaRegular.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    .america{
+        font-family:"AmericaRe";
+    }
+    @font-face{
+        font-family: "Playfair";
+        src: url('css/fonts/PlayfairDisplay-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    .play{
+        font-family:"Playfair";
     }
 }

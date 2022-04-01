@@ -58,3 +58,27 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+let slideImage = 1;
+showImages(slideImage);
+
+function next(n) {
+  showImages(slideImage += n);
+}
+
+function current(n) {
+  showImages(slideImage = n);
+}
+
+function showImages(n) {
+  let im;
+  let images = document.getElementsByClassName("imageSlides");   
+  if (n < 1) {slideImage = images.length}
+  for (im = 0; im < images.length; im++) {
+    images[im].style.display = "none";  
+  }
+  
+  images[slideImage-1].style.display = "block";  
+ 
+}
