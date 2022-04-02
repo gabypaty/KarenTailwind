@@ -22,6 +22,7 @@ module.exports = {
         'unapersona1': "url('img/unapersona1.png')",
         'unapersona2': "url('img/unapersona2.png')",
         'unapersona3': "url('img/unapersona3.png')",
+        'plantas': "url('img/rewards.webp')",
 
       }),
     },

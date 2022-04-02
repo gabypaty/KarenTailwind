@@ -13960,6 +13960,10 @@ video {
   background-image: url('img/unapersona3.png');
 }
 
+.bg-plantas {
+  background-image: url('img/rewards.webp');
+}
+
 .from-beige {
   --tw-gradient-from: #FCFBF8;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 251, 248, 0));
@@ -32526,6 +32530,10 @@ video {
     background-image: url('img/unapersona3.png');
   }
 
+  .sm\:bg-plantas {
+    background-image: url('img/rewards.webp');
+  }
+
   .sm\:from-beige {
     --tw-gradient-from: #FCFBF8;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 251, 248, 0));
@@ -51030,6 +51038,10 @@ video {
 
   .md\:bg-unapersona3 {
     background-image: url('img/unapersona3.png');
+  }
+
+  .md\:bg-plantas {
+    background-image: url('img/rewards.webp');
   }
 
   .md\:from-beige {
@@ -69538,6 +69550,10 @@ video {
     background-image: url('img/unapersona3.png');
   }
 
+  .lg\:bg-plantas {
+    background-image: url('img/rewards.webp');
+  }
+
   .lg\:from-beige {
     --tw-gradient-from: #FCFBF8;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 251, 248, 0));
@@ -88044,6 +88060,10 @@ video {
     background-image: url('img/unapersona3.png');
   }
 
+  .xl\:bg-plantas {
+    background-image: url('img/rewards.webp');
+  }
+
   .xl\:from-beige {
     --tw-gradient-from: #FCFBF8;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 251, 248, 0));
@@ -106548,6 +106568,10 @@ video {
 
   .\32xl\:bg-unapersona3 {
     background-image: url('img/unapersona3.png');
+  }
+
+  .\32xl\:bg-plantas {
+    background-image: url('img/rewards.webp');
   }
 
   .\32xl\:from-beige {
