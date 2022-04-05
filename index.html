@@ -477,81 +477,86 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
-        <!--FIN CARRUSEL-->
 
-        <!--carrusel 2 -->
-        <p class="mx-auto w-4/6 text-center">@KarenKane</p>
-
-        <div class="container place-self-center place-items-center place-content-center  mx-auto h-80 w-4/6 ">
-
-            <div class="mySlider m fade">
-                <img class="h-80" src="css/img/collar.webp">
-            </div>
-
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/mujer.webp">
-            </div>
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/slider2img1.jpeg">
-            </div>
-
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/slider2img10.jpeg">
-            </div>
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/collar.webp">
-            </div>
-
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/mujer.webp">
-            </div>
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/slider2img1.jpeg">
-            </div>
-
-            <div class="mySlider fade">
-                <img class="h-80" src="css/img/slider2img10.jpeg">
+        <!--VCSFAF-->
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="css/img/slider2img1.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img2.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img3.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img4.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img5.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img6.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img7.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img8.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img9.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img10.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img11.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img12.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img13.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img14.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img15.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img16.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img17.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="css/img/slider2img18.jpeg">
+                </div>
             </div>
         </div>
+        <!--safdaef-->
 
-        <script>
-            let image = 0;
-            showS();
-
-            function showS() {
-                let i;
-                let images = document.getElementsByClassName("mySlider");
-                let dots = document.getElementsByClassName("dot");
-                console.log('img', images.length)
-                for (i = 0; i < images.length; i++) {
-                    images[i].style.display = "none";
-                }
-                image++;
-                if (image > images.length) { image = 1 }
-
-                images[image - 1].style.display = "block";
-                setTimeout(showS, 2000); // Change image every 2 seconds
-            }
-        </script>
-
-
-        <!--FIN CA2-->
-
-
-        <div class="bg-contain bg-plantas flex-1 mt-5 mb-16  mx-auto h-52">
-            <div class="mx-72 mt-14 h-40 content-center grid grid-cols-2">
-                <div>
-                    <p class="play  text-4xl mt-14 text-grayText">Karen Kane Rewards</p>
-                    <p class="mt-1">Members get rewarded for shopping, sharing their favorite styles, reviewing
+        <div class="bg-no-repeat bg-cover bg-plantas sm:h-80 flex-1 mt-5 mb-16  mx-auto h-52">
+            <div class="mt-14 h-40 content-center grid lg:grid-cols-2 sm:grid-rows-2 md:grid-rows-2 lg:text-left">
+                <div class="md:w-screen">
+                    <p
+                        class="play lg:text-left lg:ml-2 text-4xl sm:mt-14 sm:text-center md:mt-8 md:text-center lg:mt-14 text-grayText">
+                        Karen Kane Rewards</p>
+                    <p
+                        class="mt-1 lg:text-left lg:ml-2 sm:w-4/5 sm:mt-4 sm:text-center sm:mx-auto md:w-4/5 md:text-center">
+                        Members get rewarded for shopping, sharing their favorite styles, reviewing
                         best-selling
                         looks, and more.
                     </p>
                 </div>
                 <div class="justify-self-center mt-14">
                     <button type="button"
-                        class="h-12 w-48 hover:border hover:text-black hover:border-black hover:bg-white bg-black  text-ligthBeige">Join
+                        class="h-12 sm:mt-12 w-48 hover:border hover:text-black hover:border-black hover:bg-white bg-black  text-ligthBeige">Join
                         Now</button>
-                    <p class="mt-2 ">Already a Member? LOG IN</p>
+                    <p class="mt-2 sm:mt-8 ">Already a Member? LOG IN</p>
                 </div>
             </div>
         </div>
