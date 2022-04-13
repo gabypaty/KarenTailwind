@@ -122,6 +122,35 @@
         width: 250px;
         ml-8 */
     }
+    .header {
+        @apply
+        mx-auto
+            h-32
+            text-gray-600
+            w-full
+            justify-center
+            mt-3
+            md:h-28
+            xs:h-20
+            xss:h-16
+        ;
+    }
+
+    .menu2-icon {
+        @apply
+        mr-2.5
+            ml-2.5
+            flex-none
+            xs:flex-1
+        ;
+    }
+    .icon-menu{
+        @apply
+            symbol
+            block
+            font-extralight
+        ;
+    }
     
     @keyframes scroll {
         0% {
